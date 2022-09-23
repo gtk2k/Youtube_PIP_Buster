@@ -1,0 +1,12 @@
+{
+    "name":"Youtbe PIP Buster",
+    "description": "Youtube のピクチャーインピクチャープレイヤーを無条件に閉じます",
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/"],
+            "js": ["cs.js"]
+        }
+    ]
+}
